@@ -4411,7 +4411,7 @@ var $author$project$PhotoGroove$initialModel = {
 			{url: '2.jpeg'},
 			{url: '3.jpeg'}
 		]),
-	selectedUrl: '2.jpeg'
+	selectedUrl: '1.jpeg'
 };
 var $elm$json$Json$Encode$string = _Json_wrap;
 var $elm$html$Html$Attributes$stringProperty = F2(

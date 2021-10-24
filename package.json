@@ -1,0 +1,26 @@
+{
+  "name": "photogroove",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "elm-build": "elm make src/PhotoGroove.elm --output app.js",
+    "echo": "echo 'Hey there'",
+    "watch": "nodemon --exec 'npm run elm-build' -w src/PhotoGroove.elm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorchRL/PhotoGroove-elm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JorchRL/PhotoGroove-elm/issues"
+  },
+  "homepage": "https://github.com/JorchRL/PhotoGroove-elm#readme",
+  "dependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
